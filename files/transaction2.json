@@ -1,0 +1,1183 @@
+{
+		"transactionId" : "6113e5721f00006e9ab1b50a",
+		"metadata" : {
+			"accountId" : 4920,
+			"accountName" : "Zimba",
+			"companyId" : 4957,
+			"companyName" : "Zimba Spain, S.L.",
+			"originAccountName" : "Zimba",
+			"originReportId" : "67D6A129AB894FF2BD3C",
+			"reportId" : "610fd53c25000088729b0676",
+			"workloadId" : "6110f2b22000002681b3b293",
+			"transactionId" : "6113e5721a000036c8219e6a",
+			"documentId" : "6113e5721a000036c8219e69",
+			"hashKey" : "ffcfe2325d68b8e6abbe2b15894ddf64adc2eaf933497dabba2675b809aa99cb"
+		},
+		"amount" : 102.1,
+		"country" : "ES",
+		"currency" : "EUR",
+		"category" : 20,
+		"date" : "2021-07-26",
+		"assets" : [
+			{
+				"assetId" : "6110ff033500001b4cba2cb9",
+				"exists" : true,
+				"evidence" : {
+					"data" : {
+						"country" : "ES",
+						"category" : 20,
+						"currency" : "EUR",
+						"amount" : 102.1,
+						"invoicedAt" : "2021-07-26"
+					},
+					"inScope" : true,
+					"dateExistence" : "Exists",
+					"source" : "expedite",
+					"sourceId" : "611181b2afffb61195b1743d"
+				}
+			}
+		],
+		"expenseApprovedAmount" : 102.1,
+		"expenseCurrency" : "EUR",
+		"expenses" : [
+			{
+				"originExpenseId" : "gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg",
+				"expenseId" : "610fd53c25000088729b0683",
+				"exists" : true,
+				"expenseData" : {
+					"expenseId" : "610fd53c25000088729b0683",
+					"metadata" : {
+						"accountId" : 4920,
+						"accountName" : "Zimba",
+						"companyId" : 4957,
+						"companyName" : "Zimba Spain, S.L.",
+						"originAccountName" : "Zimba",
+						"originReportId" : "67D6A129AB894FF2BD3C",
+						"reportId" : "610fd53c25000088729b0676",
+						"workloadId" : "6110f2b22000002681b3b293"
+					},
+					"report" : {
+						"origin" : {
+							"_type" : "CONCUR",
+							"id" : "67D6A129AB894FF2BD3C",
+							"fetchId" : "610df86532e7180001fff200"
+						},
+						"originCountryCode" : "ES",
+						"flow" : {
+							"name" : "need-evidence-1-2-1",
+							"value" : "One2One"
+						},
+						"employeeId" : "10017935"
+					},
+					"source" : "GHOST",
+					"originExpenseId" : "gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg",
+					"amounts" : {
+						"exchangeRate" : 1,
+						"transactionCurrency" : "EUR",
+						"transactionDate" : "2021-07-23T00:00:00Z",
+						"approved" : {
+							"value" : 91.85,
+							"currency" : "EUR",
+							"euroValue" : 91.85
+						},
+						"originApproved" : {
+							"value" : 91.85,
+							"currency" : "EUR"
+						},
+						"posted" : {
+							"value" : 91.85,
+							"currency" : "EUR"
+						},
+						"transaction" : {
+							"value" : 91.85,
+							"currency" : "EUR"
+						},
+						"billing" : {
+							"value" : 91.85,
+							"currency" : "EUR"
+						}
+					},
+					"assets" : [
+						{
+							"imaginaryId" : "610e0bb4370000eda520067d",
+							"originImageId" : "1E91D3D76B293F1C8DE32293801B638C"
+						}
+					],
+					"assetsCount" : 1,
+					"eligibility" : {
+						"claimVatAmount" : 0,
+						"vatPaid" : 0,
+						"netAmount" : 91.85,
+						"claimVatAmountInEuro" : 0
+					},
+					"cardTransaction" : {
+						"accountNumber" : "6atfR3/HYGdQK+rVDRGu9g==:1:atcFm9iU",
+						"accountNumberLastSegment" : "3009",
+						"cardDescription" : "D GARRIDO GANCEDO",
+						"cardTypeCode" : "AX",
+						"exchangeRateFromBillingToEmployeeCurrency" : "1.00000000000000",
+						"masterCardCode" : "4511",
+						"merchantCountry" : "ES",
+						"merchantCity" : "MADRID",
+						"amounts" : {
+							"posted" : {
+								"value" : 91.85,
+								"currency" : "EUR",
+								"date" : "2021-07-26T00:00:00Z"
+							},
+							"tax" : {
+								"value" : 0,
+								"currency" : "EUR"
+							},
+							"transaction" : {
+								"value" : 91.85,
+								"currency" : "EUR",
+								"date" : "2021-07-23T00:00:00Z",
+								"ccType" : {
+									"name" : "RPE",
+									"value" : "creditCardTransaction"
+								},
+								"id" : "426ba9c4",
+								"merchantName" : "IBERIA LINEAS AAEREAS DE ESPA A S.A"
+							}
+						}
+					},
+					"customs" : {
+						"custom40" : {
+							"Value" : "91.85000000",
+							"Type" : ""
+						},
+						"custom35" : {
+							"Value" : "ES",
+							"Type" : ""
+						},
+						"custom39" : {
+							"Value" : "0.00000000",
+							"Type" : ""
+						},
+						"custom16" : {
+							"Value" : "Vigo, Spain",
+							"Type" : "List",
+							"Code" : "VGO"
+						},
+						"custom38" : {
+							"Value" : "Z0",
+							"Type" : ""
+						},
+						"custom15" : {
+							"Value" : "Madrid - Barajas, Spain",
+							"Type" : "List",
+							"Code" : "MAD"
+						}
+					},
+					"paymentType" : {
+						"code" : "IBCP",
+						"name" : "AMEX Corporate Card EuAfMe (IBCP)"
+					},
+					"vatboxCategoryId" : 33,
+					"destinationCountryCode" : "ES",
+					"isCreditCardCharge" : true,
+					"commentCount" :1,
+					"hasAllocation" : {
+						"name" : "no",
+						"value" : "N"
+					},
+					"hasAttendees" : false,
+					"hasComments" : true,
+					"hasExceptions" : false,
+					"hasVat" : true,
+					"isImageRequired" : true,
+					"isItemized" : false,
+					"isPersonalCardCharge" : false,
+					"isReceiptRequired" : false,
+					"isPersonal" : false,
+					"originIsPersonal" : false,
+					"isExpensePay" : false,
+					"nTotalAttendees" : 0,
+					"numItemized" : 1,
+					"isEntryReceiptReceived" : false,
+					"vendorDescription" : "IBERIA LINEAS AEREAS SA",
+					"locationName" : "Madrid",
+					"businessPurpose" : "VIAJES COMERCIALES",
+					"expenseType" : "Airfare",
+					"expenseTypeId" : "AIRFR",
+					"spendCategory" : "Other",
+					"formId" : "gWncn9TndGLGSxVCB5gSPWJpzc1WomWvMrg",
+					"orgUnit" : {
+						
+					},
+					"receiptType" : {
+						"name" : "noReceipt",
+						"value" : "N"
+					},
+					"isInScope" : true,
+					"directive" : "DOMESTIC",
+					"companyCardTransactionID" : "gWqY$pFeDJfwoy2mZfSigmMXzlU34780$pxxg",
+					"hasImage" : true,
+					"items" : [
+						{
+							"id" : "gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg",
+							"itemType" : "regular",
+							"expenseType" : "Airfare",
+							"expenseTypeID" : "AIRFR",
+							"isPersonal" : false,
+							"orgUnit" : {
+								
+							},
+							"customs" : {
+								"custom40" : {
+									"Value" : "91.85000000",
+									"Type" : ""
+								},
+								"custom35" : {
+									"Value" : "ES",
+									"Type" : ""
+								},
+								"custom39" : {
+									"Value" : "0.00000000",
+									"Type" : ""
+								},
+								"custom16" : {
+									"Value" : "Vigo, Spain",
+									"Type" : "List",
+									"Code" : "VGO"
+								},
+								"custom38" : {
+									"Value" : "Z0",
+									"Type" : ""
+								},
+								"custom15" : {
+									"Value" : "Madrid - Barajas, Spain",
+									"Type" : "List",
+									"Code" : "MAD"
+								}
+							},
+							"amounts" : {
+								"transactionDate" : "2021-07-23T00:00:00Z",
+								"exchangeRate" : 1,
+								"transactionCurrency" : "EUR",
+								"transactionAmount" : {
+									"value" : 91.85,
+									"currency" : "EUR"
+								},
+								"postedAmount" : {
+									"value" : 91.85,
+									"currency" : "EUR"
+								},
+								"approvedAmount" : {
+									"value" : 91.85,
+									"currency" : "EUR"
+								}
+							},
+							"businessPurpose" : "VIAJES COMERCIALES",
+							"lastModified" : "2021-08-05T09:04:14Z",
+							"allocations" : [
+								{
+									"id" : "gWihqLd5mxPrM0t7Kls5hZs06rh5OLTnUrw",
+									"percentage" : "100.00000000%",
+									"accountCode1" : "821000",
+									"customs" : {
+										"custom2" : {
+											"Value" : "Zimba Spain SLU",
+											"Type" : "ConnectedList",
+											"Code" : "5007"
+										},
+										"custom3" : {
+											"Value" : "Cost Center",
+											"Type" : "ConnectedList",
+											"Code" : "CC"
+										},
+										"custom4" : {
+											"Value" : "Poultry - Field F.",
+											"Type" : "ConnectedList",
+											"Code" : "52993"
+										},
+										"custom1" : {
+											"Value" : "Production Client",
+											"Type" : "ConnectedList",
+											"Code" : "PE1CLNT100"
+										}
+									},
+									"journalEntries" : [
+										{
+											"id" : "36871459",
+											"payer" : {
+												"name" : "Company",
+												"code" : "XXXX"
+											},
+											"payee" : {
+												"name" : "AMEX Corporate Card EuAfMe (IBCP)",
+												"code" : "IBCP"
+											},
+											"accountCode" : "821000",
+											"debitOrCredit" : "debit",
+											"amount" : 91.85,
+											"jobRunKey" : "2"
+										}
+									],
+									"vatData" : [
+										{
+											"taxName" : "ES Tax Authority",
+											"taxAuthorityLabel" : "VAT",
+											"taxTransactionAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"taxPostedAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"source" : "system",
+											"taxReclaimTransactionAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"taxReclaimPostedAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											}
+										}
+									]
+								}
+							]
+						}
+					],
+					"comment" : "ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg;ExpenseTypeName:Airfare;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:91.85;InvoicePostedAmount:91.85;InvoiceTransactionAmount:91.85;ExchangeRate:1.0;InvoiceCategoryOrigin:Airfare;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:IBERIA LINEAS AEREAS SA;BusinessPurpose:VIAJES COMERCIALES",
+					"labels" : [ ],
+					"services" : [ ],
+					"createdAt" : "2021-08-08T12:59:40.714Z",
+					"updatedAt" : "2021-08-09T09:18:01.631Z"
+				}
+			},
+			{
+				"originExpenseId" : "gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw",
+				"expenseId" : "610fd53c25000088729b0681",
+				"exists" : true,
+				"expenseData" : {
+					"expenseId" : "610fd53c25000088729b0681",
+					"metadata" : {
+						"accountId" : 4920,
+						"accountName" : "Zimba",
+						"companyId" : 4957,
+						"companyName" : "Zimba Spain, S.L.",
+						"originAccountName" : "Zimba",
+						"originReportId" : "67D6A129AB894FF2BD3C",
+						"reportId" : "610fd53c25000088729b0676",
+						"workloadId" : "6110f2b22000002681b3b293"
+					},
+					"report" : {
+						"origin" : {
+							"_type" : "CONCUR",
+							"id" : "67D6A129AB894FF2BD3C",
+							"fetchId" : "610df86532e7180001fff200"
+						},
+						"originCountryCode" : "ES",
+						"flow" : {
+							"name" : "need-evidence-1-2-1",
+							"value" : "One2One"
+						},
+						"employeeId" : "10017935"
+					},
+					"source" : "GHOST",
+					"originExpenseId" : "gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw",
+					"amounts" : {
+						"exchangeRate" : 1,
+						"transactionCurrency" : "EUR",
+						"transactionDate" : "2021-07-23T00:00:00Z",
+						"approved" : {
+							"value" : 10.25,
+							"currency" : "EUR",
+							"euroValue" : 10.25
+						},
+						"originApproved" : {
+							"value" : 10.25,
+							"currency" : "EUR"
+						},
+						"posted" : {
+							"value" : 10.25,
+							"currency" : "EUR"
+						},
+						"transaction" : {
+							"value" : 10.25,
+							"currency" : "EUR"
+						},
+						"billing" : {
+							"value" : 10.25,
+							"currency" : "EUR"
+						}
+					},
+					"assets" : [
+						{
+							"imaginaryId" : "610e0bb4370000eda520067d",
+							"originImageId" : "D4933DA21DBC34F3B86CC925D508C948"
+						}
+					],
+					"assetsCount" : 1,
+					"eligibility" : {
+						"claimVatAmount" : 0,
+						"vatPaid" : 0,
+						"netAmount" : 10.25,
+						"claimVatAmountInEuro" : 0
+					},
+					"cardTransaction" : {
+						"accountNumber" : "6atfR3/HYGdQK+rVDRGu9g==:1:atcFm9iU",
+						"accountNumberLastSegment" : "3009",
+						"cardDescription" : "D GARRIDO GANCEDO",
+						"cardTypeCode" : "AX",
+						"exchangeRateFromBillingToEmployeeCurrency" : "1.00000000000000",
+						"masterCardCode" : "4722",
+						"merchantCountry" : "ES",
+						"merchantCity" : "MADRID",
+						"amounts" : {
+							"posted" : {
+								"value" : 10.25,
+								"currency" : "EUR",
+								"date" : "2021-07-24T00:00:00Z"
+							},
+							"tax" : {
+								"value" : 0,
+								"currency" : "EUR"
+							},
+							"transaction" : {
+								"value" : 10.25,
+								"currency" : "EUR",
+								"date" : "2021-07-23T00:00:00Z",
+								"ccType" : {
+									"name" : "RPE",
+									"value" : "creditCardTransaction"
+								},
+								"id" : "fad41636",
+								"merchantName" : "AVORIS RETAIL DIVISION, S.L."
+							}
+						}
+					},
+					"customs" : {
+						"custom40" : {
+							"Value" : "10.25000000",
+							"Type" : ""
+						},
+						"custom38" : {
+							"Value" : "Z0",
+							"Type" : ""
+						},
+						"custom35" : {
+							"Value" : "ES",
+							"Type" : ""
+						},
+						"custom39" : {
+							"Value" : "0.00000000",
+							"Type" : ""
+						}
+					},
+					"paymentType" : {
+						"code" : "IBCP",
+						"name" : "AMEX Corporate Card EuAfMe (IBCP)"
+					},
+					"vatboxCategoryId" : 33,
+					"destinationCountryCode" : "ES",
+					"isCreditCardCharge" : true,
+					"commentCount" : 1,
+					"hasAllocation" : {
+						"name" : "no",
+						"value" : "N"
+					},
+					"hasAttendees" : false,
+					"hasComments" : true,
+					"hasExceptions" : true,
+					"hasVat" : true,
+					"isImageRequired" : true,
+					"isItemized" : false,
+					"isPersonalCardCharge" : false,
+					"isReceiptRequired" : false,
+					"isPersonal" : false,
+					"originIsPersonal" : false,
+					"isExpensePay" : false,
+					"nTotalAttendees" : 0,
+					"numItemized" : 1,
+					"isEntryReceiptReceived" : false,
+					"vendorDescription" : "BARCELO VIAJES 1599",
+					"locationName" : "Madrid",
+					"businessPurpose" : "VIAJES COMERCIALES",
+					"expenseType" : "Booking Fees",
+					"expenseTypeId" : "01026",
+					"spendCategory" : "Other",
+					"formId" : "gWncn9TndGLGT5VSGMMGCj05SzEt0Nzk6yg",
+					"orgUnit" : {
+						
+					},
+					"receiptType" : {
+						"name" : "noReceipt",
+						"value" : "N"
+					},
+					"isInScope" : true,
+					"directive" : "DOMESTIC",
+					"companyCardTransactionID" : "gWqY$pFeDJd35PBkh9vPjs5qrTIhiRGcayew",
+					"hasImage" : true,
+					"items" : [
+						{
+							"id" : "gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw",
+							"itemType" : "regular",
+							"expenseType" : "Booking Fees",
+							"expenseTypeID" : "01026",
+							"isPersonal" : false,
+							"orgUnit" : {
+								
+							},
+							"customs" : {
+								"custom40" : {
+									"Value" : "10.25000000",
+									"Type" : ""
+								},
+								"custom38" : {
+									"Value" : "Z0",
+									"Type" : ""
+								},
+								"custom35" : {
+									"Value" : "ES",
+									"Type" : ""
+								},
+								"custom39" : {
+									"Value" : "0.00000000",
+									"Type" : ""
+								}
+							},
+							"amounts" : {
+								"transactionDate" : "2021-07-23T00:00:00Z",
+								"exchangeRate" : 1,
+								"transactionCurrency" : "EUR",
+								"transactionAmount" : {
+									"value" : 10.25,
+									"currency" : "EUR"
+								},
+								"postedAmount" : {
+									"value" : 10.25,
+									"currency" : "EUR"
+								},
+								"approvedAmount" : {
+									"value" : 10.25,
+									"currency" : "EUR"
+								}
+							},
+							"businessPurpose" : "VIAJES COMERCIALES",
+							"lastModified" : "2021-08-05T09:04:14Z",
+							"allocations" : [
+								{
+									"id" : "gWihqLd5mxPrKEsbaYFBNljX$pLFiFyNfh9w",
+									"percentage" : "100.00000000%",
+									"accountCode1" : "821017",
+									"customs" : {
+										"custom2" : {
+											"Value" : "Zimba Spain SLU",
+											"Type" : "ConnectedList",
+											"Code" : "5007"
+										},
+										"custom3" : {
+											"Value" : "Cost Center",
+											"Type" : "ConnectedList",
+											"Code" : "CC"
+										},
+										"custom4" : {
+											"Value" : "Poultry - Field F.",
+											"Type" : "ConnectedList",
+											"Code" : "52993"
+										},
+										"custom1" : {
+											"Value" : "Production Client",
+											"Type" : "ConnectedList",
+											"Code" : "PE1CLNT100"
+										}
+									},
+									"journalEntries" : [
+										{
+											"id" : "36871461",
+											"payer" : {
+												"name" : "Company",
+												"code" : "XXXX"
+											},
+											"payee" : {
+												"name" : "AMEX Corporate Card EuAfMe (IBCP)",
+												"code" : "IBCP"
+											},
+											"accountCode" : "821017",
+											"debitOrCredit" : "debit",
+											"amount" : 10.25,
+											"jobRunKey" : "2"
+										}
+									],
+									"vatData" : [
+										{
+											"taxName" : "ES Tax Authority",
+											"taxAuthorityLabel" : "VAT",
+											"taxTransactionAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"taxPostedAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"source" : "system",
+											"taxReclaimTransactionAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											},
+											"taxReclaimPostedAmount" : {
+												"value" : 0,
+												"currency" : "EUR"
+											}
+										}
+									]
+								}
+							]
+						}
+					],
+					"comment" : "ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw;ExpenseTypeName:Booking Fees;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:10.25;InvoicePostedAmount:10.25;InvoiceTransactionAmount:10.25;ExchangeRate:1.0;InvoiceCategoryOrigin:Booking Fees;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:BARCELO VIAJES 1599;BusinessPurpose:VIAJES COMERCIALES",
+					"labels" : [ ],
+					"services" : [ ],
+					"createdAt" : "2021-08-08T12:59:40.714Z",
+					"updatedAt" : "2021-08-09T09:18:01.631Z"
+				}
+			}
+		],
+		"report" : {
+			"reportId" : "610fd53c25000088729b0676",
+			"metadata" : {
+				"accountId" : 4920,
+				"accountName" : "Zimba",
+				"companyId" :4957,
+				"companyName" : "Zimba Spain, S.L.",
+				"originAccountName" : "Zimba",
+				"originReportId" : "67D6A129AB894FF2BD3C",
+				"workloadId" : "6110f2b22000002681b3b293"
+			},
+			"amounts" : {
+				"currency" : "EUR",
+				"approved" : {
+					"value" : 682.7,
+					"currency" : "EUR"
+				},
+				"claimed" : {
+					"value" : 682.7,
+					"currency" : "EUR"
+				},
+				"total" : {
+					"value" : 682.7,
+					"currency" : "EUR"
+				}
+			},
+			"dates" : {
+				"creation" : "2021-08-03T18:34:09Z",
+				"report" : "2021-08-03T00:00:00Z",
+				"submit" : "2021-08-04T01:02:24Z",
+				"paid" : "2021-08-06T02:22:57Z",
+				"processingPaymentDate" : "2021-08-05T09:04:14Z"
+			},
+			"assets" : [
+				{
+					"imaginaryId" : "610e0362280000e2fda6cb93",
+					"url" : "https://www-us.api.concursolutions.com/imaging/web/us1/file/p0030442pg9b/CD75AE8AD5651D9EFBA181E7280744FAF11B4892946ADE32734C8168A7C09FC1868018D2556892AA67A5CF3B09610A26E842F762B5FE9885E3910A92BD1CE7642D0E16FA00HD61C12BEEA9FB2F33609BAE6300CFD50?id=67D6A129AB894FF2BD3C&e=p0030442pg9b&t=AN&s=ConcurConnect",
+					"label" : "reportImage"
+				}
+			],
+			"originCountryCode" : "ES",
+			"employeeId" : "10017935",
+			"name" : "GASTOS JULIO 2021",
+			"source" : "GHOST",
+			"reportFlow" : {
+				"name" : "need-evidence-1-2-1",
+				"value" : "One2One"
+			},
+			"origin" : {
+				"_type" : "CONCUR",
+				"id" : "67D6A129AB894FF2BD3C",
+				"fetchId" : "610df86532e7180001fff200"
+			},
+			"mapping" : {
+				"isMapped" : true,
+				"id" : "60ed0529b5abfd00015086e3",
+				"version" : 57
+			},
+			"status" : {
+				"report" : {
+					"approved" : "A_APPR",
+					"approvedCodeName" : "Approved",
+					"payment" : "P_PAID",
+					"paymentCodeName" : "Sent for Payment"
+				}
+			},
+			"customs" : {
+				"custom17" : {
+					"Value" : "10017935",
+					"Type" : "Text"
+				},
+				"custom15" : {
+					"Value" : "Zimba Spain Employee Group",
+					"Type" : "List",
+					"Code" : "ES"
+				}
+			},
+			"reportKey" : "430211",
+			"orgUnit" : {
+				"org3" : "(CC)Cost Center",
+				"org4" : "(52993)Poultry - Field F.",
+				"org1" : "(PE1CLNT100)Production Client",
+				"org2" : "(5007)Zimba Spain SLU"
+			},
+			"ledgerName" : "Zimba",
+			"policyId" : "gWoiv0zfHeO3vLxBirNlbtMNDS6$pOdasi1A",
+			"everSentBack" : false,
+			"hasException" : true,
+			"receiptsReceived" : false,
+			"isClosed" : true,
+			"labels" : [ ],
+			"services" : [
+				{
+					"name" : "data-extraction",
+					"status" : "INITED"
+				}
+			],
+			"createdAt" : "2021-08-08T12:59:40.708Z",
+			"updatedAt" : "2021-08-11T14:57:07.967Z"
+		},
+		"isPersonal" : false,
+		"isImageRequired" : true,
+		"nAttendees" :0,
+		"companyComments" : "many-to-one\nExpedite: []\nConcur: [ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw;ExpenseTypeName:Booking Fees;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:10.25;InvoicePostedAmount:10.25;InvoiceTransactionAmount:10.25;ExchangeRate:1.0;InvoiceCategoryOrigin:Booking Fees;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:BARCELO VIAJES 1599;BusinessPurpose:VIAJES COMERCIALES, ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg;ExpenseTypeName:Airfare;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:91.85;InvoicePostedAmount:91.85;InvoiceTransactionAmount:91.85;ExchangeRate:1.0;InvoiceCategoryOrigin:Airfare;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:IBERIA LINEAS AEREAS SA;BusinessPurpose:VIAJES COMERCIALES]",
+		"agentComments" : "many-to-one\nExpedite: []\nConcur: [ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqZijoJZceCIHtGtU1H3x3kCXw;ExpenseTypeName:Booking Fees;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:10.25;InvoicePostedAmount:10.25;InvoiceTransactionAmount:10.25;ExchangeRate:1.0;InvoiceCategoryOrigin:Booking Fees;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:BARCELO VIAJES 1599;BusinessPurpose:VIAJES COMERCIALES, ConcurReportId:67D6A129AB894FF2BD3C;EntryId:gWh0vX4BAzqYZPW8duTXiqsKBvwUD$pNWYGg;ExpenseTypeName:Airfare;SpendCategory:Other;ReportTotalAmount:682.7;ReportCurrency:EUR;ReportName:GASTOS JULIO 2021;ReportLedgerName:Zimba;PaidDate:2021-08-06;ProcessingPaymentDate:2021-08-05;EmployeeId:10017935;ReportKey:430211;InvoiceApprovedAmount:91.85;InvoicePostedAmount:91.85;InvoiceTransactionAmount:91.85;ExchangeRate:1.0;InvoiceCategoryOrigin:Airfare;InvoiceCurrency:EUR;InvoiceCountry:ES;InvoiceIsCreditCardCharge:true;VendorDescription:IBERIA LINEAS AEREAS SA;BusinessPurpose:VIAJES COMERCIALES]",
+		"matchType" : "many-to-one",
+		"matchMode" : "Auto",
+		"documentType" : {
+			"value" : "Invoice",
+			"existence" : "Exists"
+		},
+		"recommendations" : {
+			"recommendedAt" : "2021-08-11T15:08:27.210Z",
+			"version" : "NexusDefault",
+			"extractedFields" : {
+				"amountInEuro" : {
+					"name" : "amountInEuro",
+					"value" : 102.1,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "amount-in-euro1.0"
+				},
+				"invoiceNumber" : {
+					"name" : "invoiceNumber",
+					"value" : "21F1599B00000554",
+					"confidence" : 0.9567275694554135,
+					"status" : "OK",
+					"version" : "pe_v1.0"
+				},
+				"notRelevantDocType" : {
+					"name" : "notRelevantDocType",
+					"value" : "Relevant",
+					"confidence" : 0.9990034699440002,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"vatBreakdown" : {
+					"name" : "vatBreakdown",
+					"value" : "mvp",
+					"confidence" : 0.9928,
+					"status" : "OK",
+					"version" : "vatBreakdownv3.0"
+				},
+				"reportExpensesExist" : {
+					"name" : "reportExpensesExist",
+					"value" : true,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"claimVatAmount" : {
+					"name" : "claimVatAmount",
+					"value" : 17.72,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "eligibiiltyv1.0"
+				},
+				"invoiceExpenseExists" : {
+					"name" : "invoiceExpenseExists",
+					"value" : false,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"country" : {
+					"name" : "country",
+					"value" : "ES",
+					"confidence" : 0.9995813965797424,
+					"status" : "OK_COUNTRY_TF_GOLD",
+					"version" : "v2.0"
+				},
+				"expenseType" : {
+					"name" : "expenseType",
+					"value" : 20,
+					"confidence" : 0.99,
+					"status" : "OK_NON_CONCUR",
+					"version" : "v2.0"
+				},
+				"date" : {
+					"name" : "date",
+					"value" : "2021-07-26T00:00:00.00Z",
+					"confidence" : 0.99,
+					"status" : "OK_NON_CONCUR",
+					"version" : "v1.0"
+				},
+				"documentType" : {
+					"name" : "documentType",
+					"value" : "Invoice",
+					"confidence" : 1,
+					"status" : "OK_DOC_TYPE_PRO",
+					"version" : "docTypev2.0"
+				},
+				"expenseApprovedAmountInEuro" : {
+					"name" : "expenseApprovedAmountInEuro",
+					"value" : 102.1,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "eligibilityv1.0"
+				},
+				"vatPercentages" : {
+					"name" : "vatPercentages",
+					"value" : {
+						"percentages" : [
+							{
+								"percent" : 10,
+								"excludeVatAmount" : 83.5,
+								"vatAmount" : 8.35,
+								"rawAmount" : 91.85
+							},
+							{
+								"percent" : 21,
+								"excludeVatAmount" : 8.47,
+								"vatAmount" : 1.78,
+								"rawAmount" : 10.25
+							}
+						]
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"directive" : {
+					"name" : "directive",
+					"value" : 4,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "directivev1.0"
+				},
+				"bikAlcohol" : {
+					"name" : "bikAlcohol",
+					"value" : "no",
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"companyAddress" : {
+					"name" : "companyAddress",
+					"value" : {
+						"value" : "C/ Quintanavides 13, Edificio 1 Planta 3 Parque Empresarial Via Norte 28050, Madrid",
+						"type" : "LegalAddress"
+					},
+					"confidence" : 0.6,
+					"status" : "OK",
+					"version" : "v2.0"
+				},
+				"vatIdEnriched" : {
+					"name" : "vatIdEnriched",
+					"value" : {
+						"vendorIdentificationExists" : "true",
+						"vatId" : "B07012107",
+						"vendorId" : 16387,
+						"vendorName" : "VendorGemini",
+						"status" : "OK_VENDOR_GEMINI_HIGH_CONFIDENCE"
+					},
+					"confidence" : 0.99,
+					"status" : "OK_VENDOR_GEMINI_HIGH_CONFIDENCE",
+					"version" : "null"
+				},
+				"cicoDates" : {
+					"name" : "cicoDates",
+					"status" : "LOW_CONFIDENCE",
+					"version" : "v1.0"
+				},
+				"amount" : {
+					"name" : "amount",
+					"value" : 102.1,
+					"confidence" : 1,
+					"status" : "OK_NON_CONCUR_AMOUNT_METALEARNER_V85",
+					"version" : "v3.0"
+				},
+				"vatId" : {
+					"name" : "vatId",
+					"value" : {
+						"vendorIdentificationExists" : "true",
+						"vatId" : "B07012107",
+						"vendorId" : 16387,
+						"vendorName" : "VendorGemini"
+					},
+					"confidence" : 1,
+					"status" : "OK_VENDOR_GEMINI_HIGH_CONFIDENCE",
+					"version" : "pe_v2.1"
+				},
+				"vatIndication" : {
+					"name" : "vatIndication",
+					"value" : "false",
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"companyName" : {
+					"name" : "companyName",
+					"value" : {
+						"value" : "",
+						"type" : "Missing"
+					},
+					"status" : "NOT_FOUND_LOW_CONFIDENCE",
+					"version" : "v2.0"
+				},
+				"amountInEuroPreExpedite" : {
+					"name" : "amountInEuroPreExpedite",
+					"value" : 102.1,
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"currency" : {
+					"name" : "currency",
+					"value" : "EUR",
+					"confidence" : 0.9998,
+					"status" : "OK_CURRENCY_PRO",
+					"version" : "v1.0"
+				},
+				"companyVatId" : {
+					"name" : "companyVatId",
+					"value" : {
+						"value" : "B80735228",
+						"type" : "VatId"
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v2.0"
+				}
+			}
+		},
+		"artifacts" : {
+			"recommendedAt" : "2021-08-11T15:08:27.210Z",
+			"version" : "NexusDefault",
+			"extractedFields" : {
+				"expenseAmount" : {
+					"name" : "expenseAmount",
+					"value" : {
+						"originalValue" : 102.1,
+						"originalCurrency" : "EUR",
+						"conversionDate" : "2021-07-23T00:00:00Z",
+						"euValue" : 102.1
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0a"
+				},
+				"businessDays" : {
+					"name" : "businessDays",
+					"value" : {
+						"oCountry" : {
+							"countryCode" : "ES",
+							"evidenceDateBusinessDay" : true,
+							"reportedDateBusinessDay" : true,
+							"response" : [
+								{
+									"date" : "2021-07-26",
+									"type" : "evidenceDay",
+									"result" : {
+										"isBusinessDay" : true
+									}
+								},
+								{
+									"date" : "2021-07-23T00:00:00Z",
+									"type" : "reportedDate",
+									"result" : {
+										"isBusinessDay" : true
+									}
+								}
+							]
+						},
+						"dCountry" : {
+							"countryCode" : "ES",
+							"evidenceDateBusinessDay" : true,
+							"reportedDateBusinessDay" : true,
+							"response" : [
+								{
+									"date" : "2021-07-26",
+									"type" : "evidenceDay",
+									"result" : {
+										"isBusinessDay" : true
+									}
+								},
+								{
+									"date" : "2021-07-23T00:00:00Z",
+									"type" : "reportedDate",
+									"result" : {
+										"isBusinessDay" : true
+									}
+								}
+							]
+						}
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"accountDetails" : {
+					"name" : "accountDetails",
+					"value" : {
+						"companyId" : "4957",
+						"parent" : "4920",
+						"accountId" : "4920",
+						"groupName" : "Zimba",
+						"accountType" : "standard",
+						"active" : true,
+						"name" : "Zimba Spain, S.L.",
+						"companyCode" : null,
+						"companyType" : "",
+						"stage" : "production",
+						"country" : "ES",
+						"domestic" : null,
+						"legalName" : "Zimba Spain, S.L.",
+						"legalAddress" : "C/ Quintanavides 13, Edificio 1 Planta 3 Parque Empresarial Via Norte 28050, Madrid",
+						"validNames" : [ ],
+						"invalidNames" : [
+							{
+								"id" : 11784,
+								"accountId" : 4957,
+								"name" : "Zimba DEUTSCHLAND GMBH",
+								"isValid" : false
+							},
+							{
+								"id" : 14258,
+								"accountId" : 4957,
+								"name" : "VIAJES PACIFICO SA",
+								"isValid" : false
+							}
+						],
+						"additionalAddresses" : [
+							{
+								"fullAddress" : "Parque Empresarial Via Norte, Edificio n 1. c/ Qui",
+								"id" : 1076,
+								"accountId" : 4957,
+								"address" : "Parque Empresarial Via Norte, Edificio n 1. c/ Qui",
+								"address2" : null,
+								"city" : null,
+								"state" : null,
+								"zipCode" : null,
+								"type" : "additional"
+							},
+							{
+								"fullAddress" : "Avenida De Europa 20 B 28108 - (La Moraleja) - Mad",
+								"id" :1077,
+								"accountId" : 4957,
+								"address" : "Avenida De Europa 20 B 28108 - (La Moraleja) - Mad",
+								"address2" : null,
+								"city" : null,
+								"state" : null,
+								"zipCode" : null,
+								"type" : "additional"
+							},
+							{
+								"fullAddress" : "C/ Quintanavides 13, Edificio 1 Planta 3 Parque Empresarial Via Norte 28050, Madrid",
+								"id" : 3532,
+								"accountId" : 4957,
+								"address" : "C/ Quintanavides 13, Edificio 1 Planta 3 Parque Empresarial Via Norte 28050, Madrid",
+								"address2" : null,
+								"city" : null,
+								"state" : null,
+								"zipCode" : null,
+								"type" : "legal"
+							}
+						],
+						"validGroupNames" : [ ],
+						"vatId" : "B80735228",
+						"vatRegistrations" : [ ],
+						"autoWorkload" : false
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				},
+				"invoiceAmount" : {
+					"name" : "invoiceAmount",
+					"value" : {
+						"originalValue" : 102.1,
+						"originalCurrency" : "EUR",
+						"conversionDate" : "2021-07-26T00:00:00Z",
+						"euValue" : 102.1
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0a"
+				},
+				"transactionAmount" : {
+					"name" : "transactionAmount",
+					"value" : {
+						"originalValue" : 102.1,
+						"originalCurrency" : "EUR",
+						"euValue" : 102.1,
+						"conversionDate" : "2021-07-26T00:00:00Z"
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0a"
+				},
+				"gapAmount" : {
+					"name" : "gapAmount",
+					"value" : {
+						"absoluteGapInEur" : {
+							"euValue" : 0,
+							"originalCurrency" : "EUR",
+							"originalValue" : 0
+						},
+						"percentageGap" : 0
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "gap-amount1.0"
+				},
+				"expenseApprovedAmount" : {
+					"name" : "expenseApprovedAmount",
+					"value" : {
+						"originalValue" : 102.1,
+						"originalCurrency" : "EUR",
+						"euValue" : 102.1,
+						"conversionDate" : "2021-07-23T00:00:00Z"
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0a"
+				},
+				"evidenceText" : {
+					"name" : "evidenceText",
+					"value" : {
+						"fulltext" : "BCD travel FACTURA\n21F1599B00000554\nFecha: 23/07/2021\nAVORIS RETAIL DIVISION S.L.\nVIA/ DE LOS POBLADOS, 13\n28033 MADRID ESPAÑA\nTlf: 915862319\nE-mail: mo.farmabusiness@bcdtravel.es\nCLIENTE: 2702940-Zimba SPAIN, S.L.U. CIF: B80735228\nCL/ QUINTANAVIDES, 13, PQ. EMP. VIAL NORTE, EDIF. 1 COMPANY CODE 5007 5007\n28050 MADRID\nESPAÑA\nCENTRO COSTE: 0000052993-\nCL/ QUINTANAVIDES, 13,39\n28050 MADRID\nESPAÑA\nConcepto Facturación\nPURPOSE OF TRIP CUST/CLIENT MTG\nCUSTOMER/CLIENT MEETING\nMANAGER ID 10049336\nTRAVELER TYPE EMPLOYEE EMPLOYEE\nBUSINESS UNIT INTL OPS\nINTERNATIONAL OPERATIONS\nPasajeros:\nGARRIDO GANCEDO , DAVID MR\nImporte\nDescripción de Servicios\n(10017935) GARRIDO, DAVID\nAVION: 075- 3883495186- IBERIA L.A.E. 91,85\nLocalizador: NGCQFA\nFec. Emisión: 23/07/2021\nNro. Autorización: 104810\n26/07/2021 MADRID-VIGO IBE 0530 R // S: 07:25 L: 08:45\nNRO TARJETA: AMEX ********* R009 aut. 104810\nTRANSACTION FEE 10,25\nTotal 102,10\nBsp / Disp. Adicional 4* (*) Nom.Propio Total\nBase Imp. Cuota IVA Total Base Imp. Cuota IVA Total\nBase Imp. Cuota IVA Total\nIVA al 21% 0,00 0,00 0,00 8,47 1,78 10,25 8,47 1,78 10,25\nIVA a 10% 83,50 8,35 91,85 0,00 0,00 0,00 83,50 8,35\n91,85\nTotal Bases 83,50 8,35 8,47 1,78 10,25 91,97 10,13 102,10\n91,85\nTotal 102,10 €\nPagado como U.A.T.P.: 91,85 €\nPagado con Tarjeta: AMEX ************ R009 aut. 101572 10,25 €\nPendiente De Cobro:\n0,00 €\nUSUARIO CREACIÓN: GOMGG\nÁvoris Retail División S.L. Agencia de Viajes BAL 005 M/M C.I.F.:B07012107- C/ José Rover Motta, 27.07006 Palma de Mallorca, inscrita en el Registro Mercantil de Baleares, Tomo 2.677, Folio 57, Hoja\nPM-5.131, Inscripción 193 El cliente ha sido informado debidamente de las condiciones de cancelación.\nDesglose de Servicios e IVA BSP, de acuerdo con el Real Decreto 1619/2012, al amparo de lo previsto en la disposición adicional 4a, en la que están incluidos los servicios indicados con la serie ABSP-8\n(*)Factura expedida al amparo de lo previsto en la Disposicion Adicional Cuarta del Real Decreto 1619/2012 por el que se aprueba el Reglamento por el que se regulan las obligaciones de facturacion.\nE00/1599/148060/0 Pág. 1/1"
+					},
+					"confidence" : 1,
+					"status" : "OK",
+					"version" : "v1.0"
+				}
+			}
+		},
+		"source" : "TURBINE",
+		"createdAt" : "2021-08-11T14:57:54.761Z",
+		"updatedAt" : "2021-08-11T15:10:10.922Z",
+		"labels" : [ ],
+		"services" : [
+			{
+				"name" : "vat-compliance",
+				"status" : "INITED"
+			},
+			{
+				"name" : "vat-reissue",
+				"status" : "INITED"
+			}
+		]
+	}

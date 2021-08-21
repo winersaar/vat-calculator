@@ -1,0 +1,1191 @@
+{
+  "transactionId": "6113c0cd2300001ce7fbf33b",
+  "metadata": {
+    "accountId":3301,
+    "accountName": "ACME Group",
+    "companyId": 15266,
+    "companyName": "63 - ACME Japan G.K.",
+    "originAccountName": "ACME",
+    "originReportId": "768F2864324D4085BF4A",
+    "reportId": "6106bafe20000024546d19ac",
+    "workloadId": "61078ae72000002006627178",
+    "transactionId": "6113c0cd1e000050e5df3ff1",
+    "documentId": "6113c0cd1e000050e5df3ff0",
+    "hashKey": "dd1289db15b3110126e5392ab229d1344d15188f105096bc872f8b9cd54568ae"
+  },
+  "amount": 1,
+  "country": "JP",
+  "currency": "JPY",
+  "category": 22,
+  "date": "2021-07-02",
+  "assets": [
+    {
+      "assetId": "6108dc39330000914679dc60",
+      "exists": true,
+      "evidence": {
+        "data": {
+          "country": "JP",
+          "category": 22,
+          "currency": "JPY",
+          "amount": 1
+        },
+        "inScope": true,
+        "reject": {
+          "reason": "Not Relevant"
+        },
+        "documentType": "Not Relevant Document",
+        "dateExistence": "OutOfScope",
+        "source": "expedite",
+        "sourceId": "610968e0afffb6119537c4c0"
+      }
+    },
+    {
+      "assetId": "6108dc39330000914679dc61",
+      "exists": true,
+      "evidence": {
+        "data": {
+          "country": "JP",
+          "category": 22,
+          "currency": "JPY",
+          "amount": 1
+        },
+        "inScope": true,
+        "reject": {
+          "reason": "Not Relevant"
+        },
+        "documentType": "Not Relevant Document",
+        "dateExistence": "OutOfScope",
+        "source": "expedite",
+        "sourceId": "610968e0afffb6119537c4c0"
+      }
+    },
+    {
+      "assetId": "6108dc39330000914679dc62",
+      "exists": true,
+      "evidence": {
+        "data": {
+          "country": "JP",
+          "category": 22,
+          "currency": "JPY",
+          "amount": 1
+        },
+        "inScope": true,
+        "reject": {
+          "reason": "Not Relevant"
+        },
+        "documentType": "Not Relevant Document",
+        "dateExistence": "OutOfScope",
+        "source": "expedite",
+        "sourceId": "610968e0afffb6119537c4c0"
+      }
+    }
+  ],
+  "expenseApprovedAmount": 3506,
+  "expenseCurrency": "JPY",
+  "expenses": [
+    {
+      "originExpenseId": "gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw",
+      "expenseId": "6106bafe20000024546d19b8",
+      "exists": true,
+      "expenseData": {
+        "expenseId": "6106bafe20000024546d19b8",
+        "metadata": {
+          "accountId":3301,
+          "accountName": "ACME Group",
+          "companyId": 15266,
+          "companyName": "63 - ACME Japan G.K.",
+          "originAccountName": "ACME",
+          "originReportId": "768F2864324D4085BF4A",
+          "reportId": "6106bafe20000024546d19ac",
+          "workloadId": "61078ae72000002006627178"
+        },
+        "report": {
+          "origin": {
+            "_type": "CONCUR",
+            "id": "768F2864324D4085BF4A",
+            "fetchId": "60ebb1652a1cbc00012159ad"
+          },
+          "originCountryCode": "JP",
+          "flow": {
+            "name": "need-evidence-1-2-1",
+            "value": "One2One"
+          },
+          "employeeId": "106111618"
+        },
+        "source": "GHOST",
+        "originExpenseId": "gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw",
+        "mileage": 7.6,
+        "amounts": {
+          "exchangeRate": 1,
+          "transactionCurrency": "JPY",
+          "transactionDate": "2021-07-02T00:00:00Z",
+          "approved": {
+            "value": 2400,
+            "currency": "JPY",
+            "euroValue": 18.16
+          },
+          "originApproved": {
+            "value": 2400,
+            "currency": "JPY"
+          },
+          "posted": {
+            "value": 2400,
+            "currency": "JPY"
+          },
+          "transaction": {
+            "value": 2400,
+            "currency": "JPY"
+          },
+          "billing": {
+            "value": 0,
+            "currency": "JPY"
+          }
+        },
+        "assets": [
+          {
+            "imaginaryId": "60ebc99f2600002cbd86097b",
+            "originImageId": "7B3159D4E16A32C68270564E5282ECE0"
+          }
+        ],
+        "assetsCount": 1,
+        "eligibility": {
+          "claimVatAmount": 218.18,
+          "vatPaid": 218.18,
+          "netAmount": 2181.82,
+          "claimVatAmountInEuro": 1.65
+        },
+        "cardTransaction": {
+          "amounts": {
+          }
+        },
+        "customs": {
+          "custom40": {
+            "Value": "2182.00000000",
+            "Type": ""
+          },
+          "custom35": {
+            "Value": "JP",
+            "Type": ""
+          },
+          "custom12": {
+            "Value": "0000",
+            "Type": "List",
+            "Code": "0000"
+          },
+          "custom38": {
+            "Value": "14835",
+            "Type": ""
+          },
+          "custom39": {
+            "Value": "218.00000000",
+            "Type": ""
+          },
+          "custom30": {
+            "Value": "N",
+            "Type": "Boolean"
+          }
+        },
+        "paymentType": {
+          "code": "CASH",
+          "name": "Cash"
+        },
+        "vatboxCategoryId": 22,
+        "destinationCountryCode": "JP",
+        "isCreditCardCharge": false,
+        "commentCount": 1,
+        "hasAllocation": {
+          "name": "no",
+          "value": "N"
+        },
+        "hasAttendees": false,
+        "hasComments": true,
+        "hasExceptions": false,
+        "hasVat": true,
+        "isImageRequired": true,
+        "isItemized": false,
+        "isPersonalCardCharge": false,
+        "isReceiptRequired": true,
+        "isPersonal": false,
+        "originIsPersonal": false,
+        "isExpensePay": false,
+        "nTotalAttendees": 0,
+        "numItemized": 1,
+        "isEntryReceiptReceived": false,
+        "locationName": "Tokyo",
+        "businessPurpose": "DTK5 Visit",
+        "expenseType": "Taxi",
+        "expenseTypeId": "TAXIX",
+        "spendCategory": "Ground Transportation",
+        "formId": "gWq$pCajFNASYx3MZSzystXhJKTFIo2cZF2w",
+        "orgUnit": {
+          "org4": "(1168)Delivery Station Regional Management",
+          "org1": "(JP)JP",
+          "org2": "(63)ACME Japan G.K.",
+          "org5": "4",
+          "org3": "(1Q06)DEJ1 - Delivery Station (Kawaguchi, JP)"
+        },
+        "receiptType": {
+          "name": "regular",
+          "value": "R"
+        },
+        "isInScope": true,
+        "directive": "DOMESTIC",
+        "hasImage": true,
+        "items": [
+          {
+            "id": "gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw",
+            "itemType": "regular",
+            "expenseType": "Taxi",
+            "expenseTypeID": "TAXIX",
+            "isPersonal": false,
+            "orgUnit": {
+              "org4": "(1168)Delivery Station Regional Management",
+              "org1": "(JP)JP",
+              "org2": "(63)ACME Japan G.K.",
+              "org5": "4",
+              "org3": "(1Q06)DEJ1 - Delivery Station (Kawaguchi, JP)"
+            },
+            "customs": {
+              "custom40": {
+                "Value": "2182.00000000",
+                "Type": ""
+              },
+              "custom35": {
+                "Value": "JP",
+                "Type": ""
+              },
+              "custom12": {
+                "Value": "0000",
+                "Type": "List",
+                "Code": "0000"
+              },
+              "custom38": {
+                "Value": "14835",
+                "Type": ""
+              },
+              "custom39": {
+                "Value": "218.00000000",
+                "Type": ""
+              },
+              "custom30": {
+                "Value": "N",
+                "Type": "Boolean"
+              }
+            },
+            "amounts": {
+              "transactionDate": "2021-07-02T00:00:00Z",
+              "exchangeRate": 1,
+              "transactionCurrency": "JPY",
+              "transactionAmount": {
+                "value": 2400,
+                "currency": "JPY"
+              },
+              "postedAmount": {
+                "value": 2400,
+                "currency": "JPY"
+              },
+              "approvedAmount": {
+                "value": 2400,
+                "currency": "JPY"
+              }
+            },
+            "businessPurpose": "DTK5 Visit",
+            "lastModified": "2021-07-09T04:01:10Z",
+            "allocations": [
+              {
+                "id": "gWpFQmaPYumeTWVIOwGNG9bbciq$pPG3wz4Q",
+                "percentage": "100.00000000%",
+                "accountCode1": "66016",
+                "customs": {
+                  "custom2": {
+                    "Value": "63",
+                    "Type": "Text"
+                  },
+                  "custom5": {
+                    "Value": "0000",
+                    "Type": "Text"
+                  },
+                  "custom6": {
+                    "Value": "0000",
+                    "Type": "Text"
+                  },
+                  "custom3": {
+                    "Value": "DEJ1 - Delivery Station (Kawaguchi, JP)",
+                    "Type": "List",
+                    "Code": "1Q06"
+                  },
+                  "custom7": {
+                    "Value": "0000",
+                    "Type": "List",
+                    "Code": "0000"
+                  },
+                  "custom4": {
+                    "Value": "Delivery Station Regional Management",
+                    "Type": "List",
+                    "Code": "1168"
+                  },
+                  "custom1": {
+                    "Value": "JP",
+                    "Type": "Text"
+                  }
+                },
+                "journalEntries": [
+                  {
+                    "id": "441227236",
+                    "payer": {
+                      "name": "Company",
+                      "code": "XXXX"
+                    },
+                    "payee": {
+                      "name": "Employee",
+                      "code": "XXXX"
+                    },
+                    "accountCode": "66016",
+                    "debitOrCredit": "debit",
+                    "amount": 2400,
+                    "jobRunKey": "132045"
+                  }
+                ],
+                "vatData": [
+                  {
+                    "taxName": "JP Tax Authority",
+                    "taxAuthorityLabel": "C.Tax",
+                    "taxTransactionAmount": {
+                      "value": 218,
+                      "currency": "JPY"
+                    },
+                    "taxPostedAmount": {
+                      "value": 218,
+                      "currency": "JPY"
+                    },
+                    "source": "system",
+                    "taxReclaimTransactionAmount": {
+                      "value": 218,
+                      "currency": "JPY"
+                    },
+                    "taxReclaimPostedAmount": {
+                      "value": 218,
+                      "currency": "JPY"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "comment": "ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw;ExpenseTypeName:Taxi;SpendCategory:Ground Transportation;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:2400.0;InvoicePostedAmount:2400.0;InvoiceTransactionAmount:2400.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Taxi;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit",
+        "labels": [],
+        "services": [],
+        "createdAt": "2021-08-01T15:17:18.351Z",
+        "updatedAt": "2021-08-02T14:32:34.641Z"
+      }
+    },
+    {
+      "originExpenseId": "gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg",
+      "expenseId": "6106bafe20000024546d19c0",
+      "exists": true,
+      "expenseData": {
+        "expenseId": "6106bafe20000024546d19c0",
+        "metadata": {
+          "accountId": 3301,
+          "accountName": "ACME Group",
+          "companyId": 15266,
+          "companyName": "63 - ACME Japan G.K.",
+          "originAccountName": "ACME",
+          "originReportId": "768F2864324D4085BF4A",
+          "reportId": "6106bafe20000024546d19ac",
+          "workloadId": "61078ae72000002006627178"
+        },
+        "report": {
+          "origin": {
+            "_type": "CONCUR",
+            "id": "768F2864324D4085BF4A",
+            "fetchId": "60ebb1652a1cbc00012159ad"
+          },
+          "originCountryCode": "JP",
+          "flow": {
+            "name": "need-evidence-1-2-1",
+            "value": "One2One"
+          },
+          "employeeId": "106111618"
+        },
+        "source": "GHOST",
+        "originExpenseId": "gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg",
+        "mileage": 18.3,
+        "amounts": {
+          "exchangeRate": 1,
+          "transactionCurrency": "JPY",
+          "transactionDate": "2021-06-29T00:00:00Z",
+          "approved": {
+            "value": 1106,
+            "currency": "JPY",
+            "euroValue": 8.38
+          },
+          "originApproved": {
+            "value": 1106,
+            "currency": "JPY"
+          },
+          "posted": {
+            "value": 1106,
+            "currency": "JPY"
+          },
+          "transaction": {
+            "value": 1106,
+            "currency": "JPY"
+          },
+          "billing": {
+            "value": 0,
+            "currency": "JPY"
+          }
+        },
+        "assets": [],
+        "assetsCount": 0,
+        "eligibility": {
+          "claimVatAmount": 100.55,
+          "vatPaid": 100.55,
+          "netAmount": 1005.45,
+          "claimVatAmountInEuro": 0.76
+        },
+        "cardTransaction": {
+          "amounts": {
+          }
+        },
+        "customs": {
+          "custom40": {
+            "Value": "1005.00000000",
+            "Type": ""
+          },
+          "custom35": {
+            "Value": "JP",
+            "Type": ""
+          },
+          "custom12": {
+            "Value": "0000",
+            "Type": "List",
+            "Code": "0000"
+          },
+          "custom38": {
+            "Value": "14835",
+            "Type": ""
+          },
+          "custom39": {
+            "Value": "101.00000000",
+            "Type": ""
+          },
+          "custom30": {
+            "Value": "N",
+            "Type": "Boolean"
+          }
+        },
+        "paymentType": {
+          "code": "CASH",
+          "name": "Cash"
+        },
+        "vatboxCategoryId": 22,
+        "destinationCountryCode": "JP",
+        "isCreditCardCharge": false,
+        "commentCount": 1,
+        "hasAllocation": {
+          "name": "no",
+          "value": "N"
+        },
+        "hasAttendees": false,
+        "hasComments": true,
+        "hasExceptions": false,
+        "hasVat": true,
+        "isImageRequired": false,
+        "isItemized": false,
+        "isPersonalCardCharge": false,
+        "isReceiptRequired": false,
+        "isPersonal": false,
+        "originIsPersonal": false,
+        "isExpensePay": false,
+        "nTotalAttendees": 0,
+        "numItemized": 1,
+        "isEntryReceiptReceived": false,
+        "locationName": "Tokyo",
+        "businessPurpose": "DTK5 Visit",
+        "expenseType": "Train and Bus",
+        "expenseTypeId": "01061",
+        "spendCategory": "Train",
+        "formId": "gWq$pCajFNDCExBi129BDlPZ8H$sO9fcThCiw",
+        "orgUnit": {
+          "org4": "(1168)Delivery Station Regional Management",
+          "org1": "(JP)JP",
+          "org2": "(63)ACME Japan G.K.",
+          "org5": "4",
+          "org3": "(1Q06)DEJ1 - Delivery Station (Kawaguchi, JP)"
+        },
+        "receiptType": {
+          "name": "noReceipt",
+          "value": "N"
+        },
+        "isInScope": true,
+        "directive": "DOMESTIC",
+        "hasImage": false,
+        "items": [
+          {
+            "id": "gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg",
+            "itemType": "regular",
+            "expenseType": "Train and Bus",
+            "expenseTypeID": "01061",
+            "isPersonal": false,
+            "orgUnit": {
+              "org4": "(1168)Delivery Station Regional Management",
+              "org1": "(JP)JP",
+              "org2": "(63)ACME Japan G.K.",
+              "org5": "4",
+              "org3": "(1Q06)DEJ1 - Delivery Station (Kawaguchi, JP)"
+            },
+            "customs": {
+              "custom40": {
+                "Value": "1005.00000000",
+                "Type": ""
+              },
+              "custom35": {
+                "Value": "JP",
+                "Type": ""
+              },
+              "custom12": {
+                "Value": "0000",
+                "Type": "List",
+                "Code": "0000"
+              },
+              "custom38": {
+                "Value": "14835",
+                "Type": ""
+              },
+              "custom39": {
+                "Value": "101.00000000",
+                "Type": ""
+              },
+              "custom30": {
+                "Value": "N",
+                "Type": "Boolean"
+              }
+            },
+            "amounts": {
+              "transactionDate": "2021-06-29T00:00:00Z",
+              "exchangeRate": 1,
+              "transactionCurrency": "JPY",
+              "transactionAmount": {
+                "value": 1106,
+                "currency": "JPY"
+              },
+              "postedAmount": {
+                "value": 1106,
+                "currency": "JPY"
+              },
+              "approvedAmount": {
+                "value": 1106,
+                "currency": "JPY"
+              }
+            },
+            "businessPurpose": "DTK5 Visit",
+            "lastModified": "2021-07-09T04:01:10Z",
+            "allocations": [
+              {
+                "id": "gWpFQmaPZvmPr7LJFcCkXF0O6X0VcpWSt6w",
+                "percentage": "100.00000000%",
+                "accountCode1": "66016",
+                "customs": {
+                  "custom2": {
+                    "Value": "63",
+                    "Type": "Text"
+                  },
+                  "custom5": {
+                    "Value": "0000",
+                    "Type": "Text"
+                  },
+                  "custom6": {
+                    "Value": "0000",
+                    "Type": "Text"
+                  },
+                  "custom3": {
+                    "Value": "DEJ1 - Delivery Station (Kawaguchi, JP)",
+                    "Type": "List",
+                    "Code": "1Q06"
+                  },
+                  "custom7": {
+                    "Value": "0000",
+                    "Type": "List",
+                    "Code": "0000"
+                  },
+                  "custom4": {
+                    "Value": "Delivery Station Regional Management",
+                    "Type": "List",
+                    "Code": "1168"
+                  },
+                  "custom1": {
+                    "Value": "JP",
+                    "Type": "Text"
+                  }
+                },
+                "journalEntries": [
+                  {
+                    "id": "441227220",
+                    "payer": {
+                      "name": "Company",
+                      "code": "XXXX"
+                    },
+                    "payee": {
+                      "name": "Employee",
+                      "code": "XXXX"
+                    },
+                    "accountCode": "66016",
+                    "debitOrCredit": "debit",
+                    "amount": 1106,
+                    "jobRunKey": "132045"
+                  }
+                ],
+                "vatData": [
+                  {
+                    "taxName": "JP Tax Authority",
+                    "taxAuthorityLabel": "C.Tax",
+                    "taxTransactionAmount": {
+                      "value": 101,
+                      "currency": "JPY"
+                    },
+                    "taxPostedAmount": {
+                      "value": 101,
+                      "currency": "JPY"
+                    },
+                    "source": "system",
+                    "taxReclaimTransactionAmount": {
+                      "value": 101,
+                      "currency": "JPY"
+                    },
+                    "taxReclaimPostedAmount": {
+                      "value": 101,
+                      "currency": "JPY"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "comment": "ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg;ExpenseTypeName:Train and Bus;SpendCategory:Train;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:1106.0;InvoicePostedAmount:1106.0;InvoiceTransactionAmount:1106.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Train and Bus;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit",
+        "labels": [],
+        "services": [],
+        "createdAt": "2021-08-01T15:17:18.351Z",
+        "updatedAt": "2021-08-02T14:32:34.640Z"
+      }
+    }
+  ],
+  "report": {
+    "reportId": "6106bafe20000024546d19ac",
+    "metadata": {
+      "accountId": 3301,
+      "accountName": "ACME Group",
+      "companyId":15266,
+      "companyName": "63 - ACME Japan G.K.",
+      "originAccountName": "ACME",
+      "originReportId": "768F2864324D4085BF4A",
+      "workloadId": "61078ae72000002006627178"
+    },
+    "amounts": {
+      "currency": "JPY",
+      "approved": {
+        "value": 104017,
+        "currency": "JPY"
+      },
+      "claimed": {
+        "value": 104017,
+        "currency": "JPY"
+      },
+      "total": {
+        "value": 104017,
+        "currency": "JPY"
+      }
+    },
+    "dates": {
+      "creation": "2021-07-05T23:09:12Z",
+      "report": "2021-07-06T00:00:00Z",
+      "submit": "2021-07-08T01:52:35Z",
+      "paid": "2021-07-10T11:06:34Z",
+      "processingPaymentDate": "2021-07-09T04:01:10Z"
+    },
+    "assets": [
+      {
+        "imaginaryId": "60ebc13829000049296f582d",
+        "url": "https://us.api.concursolutions.com/imaging/web/us3/file/p0000155ejmd/0A37D2F790E40D522FC4C4CB2BC7E30E273851FC3EEEA917E37C734E8B35BB255D3827AFBFC889B13D4B5297A9D641B97397A4873EFABFE929B47B8BA3081207E1CFD25188HB3B6F80CF8DE83659286F906ECC62D4A?id=768F2864324D4085BF4A&e=p0000155ejmd&t=AN&s=ConcurConnect",
+        "label": "reportImage"
+      }
+    ],
+    "originCountryCode": "JP",
+    "employeeId": "106111618",
+    "name": "WK22-WK26 Traveling",
+    "source": "GHOST",
+    "reportFlow": {
+      "name": "need-evidence-1-2-1",
+      "value": "One2One"
+    },
+    "origin": {
+      "_type": "CONCUR",
+      "id": "768F2864324D4085BF4A",
+      "fetchId": "60ebb1652a1cbc00012159ad"
+    },
+    "mapping": {
+      "isMapped": true,
+      "id": "61064601a391b30001409a32",
+      "version": 123
+    },
+    "status": {
+      "report": {
+        "approved": "A_APPR",
+        "approvedCodeName": "Approved",
+        "payment": "P_PAYC",
+        "paymentCodeName": "Payment Confirmed"
+      }
+    },
+    "customs": {
+      "custom9": {
+        "Value": "Y",
+        "Type": "List",
+        "Code": "Y"
+      },
+      "custom13": {
+        "Value": "No",
+        "Type": "List",
+        "Code": "No"
+      },
+      "custom2": {
+        "Value": "T&E",
+        "Type": "List",
+        "Code": "T&E"
+      },
+      "custom5": {
+        "Value": "Y",
+        "Type": "Text"
+      },
+      "custom6": {
+        "Value": "0000",
+        "Type": "Text"
+      },
+      "custom3": {
+        "Value": "N",
+        "Type": "Boolean"
+      },
+      "custom4": {
+        "Value": "0000",
+        "Type": "Text"
+      },
+      "custom1": {
+        "Value": "JP",
+        "Type": "List",
+        "Code": "JP"
+      },
+      "custom11": {
+        "Value": "0000",
+        "Type": "List",
+        "Code": "0000"
+      }
+    },
+    "reportKey": "11703427",
+    "orgUnit": {
+      "org4": "(1168)Delivery Station Regional Management",
+      "org1": "(JP)JP",
+      "org2": "(63)ACME Japan G.K.",
+      "org5": "4",
+      "org3": "(1Q06)DEJ1 - Delivery Station (Kawaguchi, JP)"
+    },
+    "ledgerName": "Oracle",
+    "policyId": "gWt2d4ZKx4vqcRUjtoW1NqMMHWxRm7Cxrdw",
+    "everSentBack": false,
+    "hasException": false,
+    "receiptsReceived": false,
+    "isClosed": true,
+    "labels": [],
+    "services": [
+      {
+        "name": "data-extraction",
+        "status": "INITED"
+      }
+    ],
+    "createdAt": "2021-08-01T15:17:18.310Z",
+    "updatedAt": "2021-08-11T12:20:29.609Z"
+  },
+  "isPersonal": false,
+  "isImageRequired": true,
+  "nAttendees": 0,
+  "companyComments": "many-to-one\nExpedite: []\nConcur: [ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg;ExpenseTypeName:Train and Bus;SpendCategory:Train;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:1106.0;InvoicePostedAmount:1106.0;InvoiceTransactionAmount:1106.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Train and Bus;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit, ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw;ExpenseTypeName:Taxi;SpendCategory:Ground Transportation;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:2400.0;InvoicePostedAmount:2400.0;InvoiceTransactionAmount:2400.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Taxi;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit]",
+  "agentComments": "many-to-one\nExpedite: []\nConcur: [ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PQYf6mGbvRZZLJnh0uzx412tBmg;ExpenseTypeName:Train and Bus;SpendCategory:Train;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:1106.0;InvoicePostedAmount:1106.0;InvoiceTransactionAmount:1106.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Train and Bus;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit, ConcurReportId:768F2864324D4085BF4A;EntryId:gWg$pMyb9PN4b5fVr8grdSh$skwKZ86TRLiaw;ExpenseTypeName:Taxi;SpendCategory:Ground Transportation;ReportTotalAmount:104017.0;ReportCurrency:JPY;ReportName:WK22-WK26 Traveling;ReportLedgerName:Oracle;PaidDate:2021-07-10;ProcessingPaymentDate:2021-07-09;EmployeeId:106111618;ReportKey:11703427;InvoiceApprovedAmount:2400.0;InvoicePostedAmount:2400.0;InvoiceTransactionAmount:2400.0;ExchangeRate:1.0;InvoiceCategoryOrigin:Taxi;InvoiceCurrency:JPY;InvoiceCountry:JP;InvoiceIsCreditCardCharge:false;BusinessPurpose:DTK5 Visit]",
+  "matchType": "many-to-many",
+  "matchMode": "Auto",
+  "documentType": {
+    "value": "Not Relevant Document",
+    "existence": "Exists"
+  },
+  "recommendations": {
+    "recommendedAt": "2021-08-11T12:22:45.230Z",
+    "version": "NexusDefault",
+    "extractedFields": {
+      "amountInEuro": {
+        "name": "amountInEuro",
+        "value": 0.007566,
+        "confidence": 1,
+        "status": "OK",
+        "version": "amount-in-euro1.0"
+      },
+      "invoiceNumber": {
+        "name": "invoiceNumber",
+        "status": "NO_EXTRACTION",
+        "version": "pe_v1.0"
+      },
+      "notRelevantDocType": {
+        "name": "notRelevantDocType",
+        "value": "Not Relevant",
+        "confidence": 0.933,
+        "status": "OK_DPC",
+        "version": "v1.0"
+      },
+      "vatBreakdown": {
+        "name": "vatBreakdown",
+        "value": "svp",
+        "confidence": 0.9952,
+        "status": "OK",
+        "version": "vatBreakdownv3.0"
+      },
+      "reportExpensesExist": {
+        "name": "reportExpensesExist",
+        "value": true,
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      },
+      "claimVatAmount": {
+        "name": "claimVatAmount",
+        "value": 0.09,
+        "confidence": 1,
+        "status": "OK",
+        "version": "eligibiiltyv1.0"
+      },
+      "invoiceExpenseExists": {
+        "name": "invoiceExpenseExists",
+        "value": false,
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      },
+      "country": {
+        "name": "country",
+        "value": "JP",
+        "confidence": 0.9993616938591003,
+        "status": "OK_COUNTRY_TF_GOLD",
+        "version": "v2.0"
+      },
+      "expenseType": {
+        "name": "expenseType",
+        "value": 22,
+        "confidence": 0.99,
+        "status": "OK_NON_CONCUR",
+        "version": "v2.0"
+      },
+      "date": {
+        "name": "date",
+        "status": "NO_EXTRACTION",
+        "version": "v1.0"
+      },
+      "documentType": {
+        "name": "documentType",
+        "value": "Simplified Invoice",
+        "confidence": 1,
+        "status": "OK_DOC_TYPE_PRO",
+        "version": "docTypev2.0"
+      },
+      "expenseApprovedAmountInEuro": {
+        "name": "expenseApprovedAmountInEuro",
+        "value": 26.526396,
+        "confidence": 1,
+        "status": "OK",
+        "version": "eligibilityv1.0"
+      },
+      "vatPercentages": {
+        "name": "vatPercentages",
+        "status": "LOW_INTERSECTION",
+        "version": "v1.0"
+      },
+      "directive": {
+        "name": "directive",
+        "value": 4,
+        "confidence": 1,
+        "status": "OK",
+        "version": "directivev1.0"
+      },
+      "bikAlcohol": {
+        "name": "bikAlcohol",
+        "value": "no",
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      },
+      "companyAddress": {
+        "name": "companyAddress",
+        "value": {
+          "value": "",
+          "type": "Missing"
+        },
+        "status": "NOT_FOUND_LOW_CONFIDENCE",
+        "version": "v2.0"
+      },
+      "vatIdEnriched": {
+        "name": "vatIdEnriched",
+        "value": {
+          "vendorIdentificationExists": "true"
+        },
+        "status": "INDICATION_ONLY",
+        "version": "null"
+      },
+      "cicoDates": {
+        "name": "cicoDates",
+        "status": "NO_EXTRACTION",
+        "version": "v1.0"
+      },
+      "amount": {
+        "name": "amount",
+        "value": 1,
+        "confidence": 1,
+        "status": "OK_NON_CONCUR_AMOUNT_METALEARNER_DBSCAN",
+        "version": "v3.0"
+      },
+      "vatId": {
+        "name": "vatId",
+        "value": {
+          "vendorIdentificationExists": "true"
+        },
+        "confidence": 1,
+        "status": "INDICATION_ONLY",
+        "version": "pe_v2.1"
+      },
+      "vatIndication": {
+        "name": "vatIndication",
+        "status": "LOW_CONFIDENCE",
+        "version": "v1.0"
+      },
+      "companyName": {
+        "name": "companyName",
+        "value": {
+          "value": "",
+          "type": "Missing"
+        },
+        "status": "NOT_FOUND",
+        "version": "v2.0"
+      },
+      "amountInEuroPreExpedite": {
+        "name": "amountInEuroPreExpedite",
+        "status": "AMOUNT_IN_EU_MISSING_DATE",
+        "version": "v1.0"
+      },
+      "currency": {
+        "name": "currency",
+        "value": "JPY",
+        "confidence": 0.9867,
+        "status": "OK_CURRENCY_PRO",
+        "version": "v1.0"
+      },
+      "companyVatId": {
+        "name": "companyVatId",
+        "value": {
+          "value": "",
+          "type": "Missing"
+        },
+        "status": "NOT_FOUND",
+        "version": "v2.0"
+      }
+    }
+  },
+  "artifacts": {
+    "recommendedAt": "2021-08-11T12:22:45.230Z",
+    "version": "NexusDefault",
+    "extractedFields": {
+      "expenseAmount": {
+        "name": "expenseAmount",
+        "value": {
+          "originalValue": 3506,
+          "originalCurrency": "JPY",
+          "conversionDate": "2021-07-02T00:00:00Z",
+          "euValue": 26.526396
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0a"
+      },
+      "businessDays": {
+        "name": "businessDays",
+        "value": {
+          "oCountry": {
+            "countryCode": "JP",
+            "evidenceDateBusinessDay": true,
+            "reportedDateBusinessDay": true,
+            "response": [
+              {
+                "date": "2021-07-02",
+                "type": "evidenceDay",
+                "result": {
+                  "isBusinessDay": true
+                }
+              },
+              {
+                "date": "2021-07-02T00:00:00Z",
+                "type": "reportedDate",
+                "result": {
+                  "isBusinessDay": true
+                }
+              }
+            ]
+          },
+          "dCountry": {
+            "countryCode": "JP",
+            "evidenceDateBusinessDay": true,
+            "reportedDateBusinessDay": true,
+            "response": [
+              {
+                "date": "2021-07-02",
+                "type": "evidenceDay",
+                "result": {
+                  "isBusinessDay": true
+                }
+              },
+              {
+                "date": "2021-07-02T00:00:00Z",
+                "type": "reportedDate",
+                "result": {
+                  "isBusinessDay": true
+                }
+              }
+            ]
+          }
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      },
+      "accountDetails": {
+        "name": "accountDetails",
+        "value": {
+          "companyId": "15266",
+          "parent": "3301",
+          "accountId": "3301",
+          "groupName": "ACME Group",
+          "accountType": "standard",
+          "active": true,
+          "name": "ACME Japan G.K.",
+          "companyCode": "63",
+          "companyType": "",
+          "stage": "production",
+          "country": "JP",
+          "domestic": null,
+          "legalName": "ACME Japan G.K.",
+          "legalAddress": "",
+          "validNames": [],
+          "invalidNames": [],
+          "additionalAddresses": [
+            {
+              "fullAddress": "1-8-1 Shimomeguro, Meguro-ku, Tokyo, 153-0064 Japan",
+              "id": 11090,
+              "accountId": 15266,
+              "address": "1-8-1 Shimomeguro, Meguro-ku, Tokyo, 153-0064 Japan",
+              "address2": "",
+              "city": "",
+              "state": "",
+              "zipCode": "",
+              "type": "additional"
+            },
+            {
+              "fullAddress": "1-8-1 Shimomeguro, Meguro-ku,Tokyo,153-0064",
+              "id": 11159,
+              "accountId": 5266,
+              "address": "1-8-1 Shimomeguro, Meguro-ku",
+              "address2": "",
+              "city": "Tokyo",
+              "state": "",
+              "zipCode": "153-0064",
+              "type": "legal"
+            }
+          ],
+          "validGroupNames": [],
+          "vatId": "T3040001028447",
+          "vatRegistrations": [],
+          "autoWorkload": false
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      },
+      "invoiceAmount": {
+        "name": "invoiceAmount",
+        "value": {
+          "originalValue": 1,
+          "originalCurrency": "JPY",
+          "conversionDate": "2021-07-02T00:00:00Z",
+          "euValue": 0.007566
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0a"
+      },
+      "transactionAmount": {
+        "name": "transactionAmount",
+        "value": {
+          "originalValue": 1,
+          "originalCurrency": "JPY",
+          "euValue": 0.007566,
+          "conversionDate": "2021-07-02T00:00:00Z"
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0a"
+      },
+      "gapAmount": {
+        "name": "gapAmount",
+        "value": {
+          "absoluteGapInEur": {
+            "euValue": 26.518829999999998,
+            "originalCurrency": "EUR",
+            "originalValue": 26.518829999999998
+          },
+          "percentageGap": 350500
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "gap-amount1.0"
+      },
+      "expenseApprovedAmount": {
+        "name": "expenseApprovedAmount",
+        "value": {
+          "originalValue": 3506,
+          "originalCurrency": "JPY",
+          "euValue": 26.526396,
+          "conversionDate": "2021-07-02T00:00:00Z"
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0a"
+      },
+      "evidenceText": {
+        "name": "evidenceText",
+        "value": {
+          "fulltext": "12:12\nSuzukakedai Star\nMinami-machida\nSrandberry Parka\nTokyo\nInstitute of\nTechnology\nSuzukakedai..\nTsuruma ES &\nGoogle\n料盖内\n¥1,400\n71,400\n用日時而空1的了而立」也是51\n*5 GO Pay (----5014)\n運通財 算是一个一通道\n台中市推叫出\n乘車詳細\n07:51\n東京都町田市南可出丁目\n山上天后\n東京都町田市的丁目\n12:12\n于产力过高\ninarni-machida Tokyo\nGrandberry Parka\n南田一一 Technology\nInstitute of\nSuzukakedai...\n東京工建大\nsuruma ES\n田市立國小\nGoogle\n料金内\n¥1,000\nV1,000\n引用日2210之三之山\n注音方法 Pay 5141\n乘車詳細\n東京都町田市国丁目\n中1上市\n最重样走入才查表"
+        },
+        "confidence": 1,
+        "status": "OK",
+        "version": "v1.0"
+      }
+    }
+  },
+  "source": "TURBINE",
+  "createdAt": "2021-08-11T12:21:33.821Z",
+  "updatedAt": "2021-08-11T12:24:32.179Z",
+  "labels": ["mileage"],
+  "services": [
+    {
+      "name": "vat-compliance",
+      "status": "INITED"
+    },
+    {
+      "name": "vat-reissue",
+      "status": "INITED"
+    }
+  ]
+}
